@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    background-color: black;
+    height: 70px;
+}
+
+nav{
+    left: auto;
+    right: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li :hover{
+    color: lightblue;
+}
+
+@media (max-width:750px){
+    header {
+        background-color: gray;
+        font-size: 150%;
+        height: 150%;
+    }
+    li {
+        display: none;
+    }
+    .button{
+        display:flex;
+        
+    }
+}
+
+button{
+    display: none;
+}
+
+.video{
+    width: 500px;
+    height: 500px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    min-height: 200px;
+    color: white;
+}
